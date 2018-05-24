@@ -1,0 +1,12 @@
+body {
+
+ }
+ .top{
+ 	text-align: center;
+ 	transition-delay: 0.3;
+ 	text-decoration: none;
+ 	text-shadow: 0.5;
+ 	font: 'Neuton', serif;
+ 	background-image: url("https://www.pexels.com/photo/forest-during-daytime-213172/");
+
+ }
