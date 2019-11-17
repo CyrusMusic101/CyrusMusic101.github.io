@@ -1,1 +1,38 @@
-j
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+body {
+  font-family: Quicksand;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background: url(https://cdn.pixabay.com/photo/2019/10/30/16/19/fox-4589927_960_720.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.content {
+  width: 90%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
