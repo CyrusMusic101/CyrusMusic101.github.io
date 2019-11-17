@@ -1,8 +1,39 @@
 body {
-  
+  margin: 0;
+  padding: 0;
+  font-family: "Monstserrat";
 }
 
+.navbar {
+  position: fixed;
+  height: 80px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background: #f1f1f1;
+  width: 100%;
+}
 
+.logo {
+  background: url(https://img.icons8.com/office/40/000000/virus-free.png) no-repeat 50% 50%;
+  background-size: contain;
+  width: 180px;
+  height: 18px;
+  float: left;
+}
+
+.menu {
+  position: absolute;
+  right: 20px;
+}
+.menu a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
 
 
 
