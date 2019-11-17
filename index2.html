@@ -14,16 +14,20 @@
    	  <!-- Link to resource sheets -->
    	  <link rel="stylesheet" href="landing.css"/>
    	  <link rel="stylesheet" href="info.css"/>
-   	  <!-- Should SARIN link in Google Fonts? (Not Secure) -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	  <!-- Should SARIN link in Google Fonts? (Not Secure) -->
    	  <link href="https://fonts.googleapis.com/css?family=Mr+De+Haviland|Neucha|Neuton" rel="stylesheet">
    	  <!-- Is SARIN using external APIS? If so hook below? -->
+	  <script src="https://code.jquery.com/jquery-3.2.1"></script>
    	  <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
   <body>
-  <p id="demo"></p>
-  <script language="Javascript"> 
-  	document.getElementById("demo").innerHTML = geoplugin_city();
-	console.log("Welcome to our visitors from "+geoplugin_city()+", "+geoplugin_countryName());
-	console.log("Testing"+geoplugin_region());
-  </script>
+	  <div class="wrapper">
+		  <header>
+			  <nav>
+				  <div class="menu-icon">
+					  <i class="fa fa-bars fa-2x"></i>
+				  </div>
+			  </nav>
+		  </header>
+	  </div>
    
      </body>
