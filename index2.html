@@ -14,53 +14,57 @@
    	  <!-- Link to resource sheets -->
    	  <link rel="stylesheet" href="landing.css"/>
    	  <link rel="stylesheet" href="nav.css"/>
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	  <!-- Should SARIN link in Google Fonts? (Not Secure) -->
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">	  
+	  <!-- Should SARIN link in Google Fonts? (Not Secure) -->
    	  <link href="https://fonts.googleapis.com/css?family=Mr+De+Haviland|Neucha|Neuton" rel="stylesheet">
-   	  <!-- Is SARIN using external APIS? If so hook below? -->
-	  <script src="https://code.jquery.com/jquery-3.2.1"></script>
-	  <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>   	  <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
-  <body>
-	  <div class="wrapper">
-		  <header>
-			  <nav>
-				  <div class="menu-icon">
-					  <i class="fa fa-bars fa-2x"></i>
-				  </div>
-				  <div class="logo">
-					  LOGO
-				  </div>
-				  <div class="menu">
-					      <ul>
-					      <li><a href="#">Services</a></li>
- 					      <li><a href="#">About</a></li>
-					      <li><a href="#">Team</a></li>
-		                              <li><a href="#">Contact</a></li>					      
-					      </ul>
-					      </div> 
-			  </nav>
-		  </header>
+   	  <!-- Is SARIN using external APIS? If so hook below? -->  
+         <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+           <body>
+	  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>	
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>		   
+		   
 		  <div class="content">
 			  <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>	
 			  <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>
 		          <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>		  
 		          <p>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the 15th century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum for use in a type specimen book.</p>		  
 		  </div>
-		  <script type="text/javascript">
-			  
-			  //menu toggle button
-			  
-			  $(document).ready(function() {
-				  $(".menu-icon).on("click", function() {
-				    $("nav ul").toggleClass("showing");
-			  	});
-		          });
-			  
-			  //Scrolling effect
-			  
-			  
-		  </script>
    
      </body>
