@@ -16,7 +16,7 @@ header {
 }
 
 .content {
-  width: 90%;
+  width: 94%;
   margin: 4em auto;
   font-size: 20px;
   line-height: 30px;
@@ -24,12 +24,14 @@ header {
 }
 
 .logo {
+  line-height: 60px;
   position: fixed;
   float: left;
-  margin: 16px 36px;
+  margin: 16px 46px;
   color: #fff;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 20px;
+  letter-spacing: 2px
 }
 
 nav {
