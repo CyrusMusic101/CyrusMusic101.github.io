@@ -48,6 +48,13 @@ body {
   background-size: cover;
   margin-top: 80px;
 }
+.btn span {
+  display: block;
+  margin: 6px;
+  width: 40px;
+  height: 3px;
+  background: #333;
+}
 
 p {
   padding: 20px;
