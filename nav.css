@@ -52,7 +52,7 @@ body {
   display: none;
   position: absolute;
   right: 20px
-    
+}
 .btn:hover > span {
   background: #6ab04c;
 }
