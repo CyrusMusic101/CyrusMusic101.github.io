@@ -82,7 +82,7 @@ p {
     overflow: hidden;
     max-height: 0;
 }
-
+}
   .menu a {
     display: block;
     text-align: center;
@@ -96,7 +96,7 @@ p {
   .show {
     max-height: 500px;
 }
-}
+
 
 
 
