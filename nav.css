@@ -52,6 +52,9 @@ body {
   display: none;
   position: absolute;
   right: 20px
+    
+.btn:hover > span {
+  background: #6ab04c;
 }
 .btn span {
   display: block;
@@ -90,8 +93,10 @@ p {
   display: block;
   cursor: pointer;
   }
+  .show {
+    max-height: 500px;
 }
-
+}
 
 
 
