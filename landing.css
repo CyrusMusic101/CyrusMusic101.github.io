@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-@import url('https://fonts.googleapis.com/css?family=Raleway');
-
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Bebas+Neue|Big+Shoulders+Text|Bowlby+One+SC|Caveat|Dancing+Script|Hind|Indie+Flower|Lato|Lobster|Montserrat|Open+Sans+Condensed:300|Oswald|Pacifico|Permanent+Marker|Playfair+Display|Raleway|Shadows+Into+Light|Staatliches|Teko|Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
 html, body {
 	margin: 0;
 	padding: 0;
@@ -11,7 +10,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin: auto;
-	background: url(https://cdn.pixabay.com/photo/2019/10/26/13/00/mushroom-4579415_960_720.jpg);
+	background: url(https://cdn.pixabay.com/photo/2016/03/09/10/37/light-bulb-1246043_960_720.jpg);
 	display: table;
 	top: 0;
 	background-size: cover;
@@ -28,7 +27,8 @@ html, body {
 	text-align: center;
 }
 .content h1 {
-	font-family: 'Oswald', sans-serif;
+	/*font-family: 'Oswald', sans-serif;*/
+	font-family: 'Caveat';
 	color: #F9F3F4;
 	text-shadow: 0px 0px 300px #000;
 	font-size: 500%;
@@ -69,12 +69,12 @@ p {
 }
 .footer{
    position:fixed;
+   bottom: 0px;
+   height: 20px;
+   width: 100%;
    left:0px;
-   bottom:0px;
-   height:30px;
-   width:100%;
+   background: #262626;
    opacity: 0.9;
-   background: #5c5c5c;
   }
   .ftm{
     text-align: center;
