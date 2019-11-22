@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+body{
+  font-family: montserrat;
+}
+nav{
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background: #1b1b1c;
+  z-index:10;
+}
+label.logo{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Staatliches', cursive;
+  font-style: italic;
+  padding: 0 100px;
+  line-height: 50px;
+  color: white;
+}
+nav ul{
+  float: right;
+  margin-right: 40px;
+}
+nav li{
+  display: inline-block;
+  margin: 0 8px;
+  line-height: 50px;
+}
+nav a{
+  color: white;
+  font-size: 18px;
+  padding: 7px 10px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: 1px solid transparent;
+}
+a.current,a:hover{
+  transition: .5s;
+  border: 1px solid white;
+}
+nav a:hover{
+  color: #87bfc9;
+
+}
+nav #icon{
+  color: white;
+  font-size: 30px;
+  float: right;
+  margin-right: 40px;
+  line-height: 50px;
+  cursor: pointer;
+  display: none;
+}
+    #godown{
+   height: 50px;
+}
+@media (max-width: 1048px){
+  label.logo{
+    font-size: 32px;
+    padding-left: 60px;
+  }
+  nav ul{
+    margin-right: 20px;
+  }
+  nav a{
+    font-size: 17px;
+  }
+}
+@media (max-width: 909px){
+  nav #icon{
+    display: block;
+  }
+  nav ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2f3640;
+    top: 50px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav a{
+    font-size: 20px;
+  }
+  a.active,a:hover{
+    border: none;
+    color: #3498db;
+  }
+  nav ul.active{
+    left: 0;
+  }
+}
